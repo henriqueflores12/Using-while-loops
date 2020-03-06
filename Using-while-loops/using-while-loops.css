@@ -1,0 +1,31 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: start;
+}
+#box1 {
+  border: 10px solid whitesmoke;
+  border-radius: 200px;
+  width: 50%;
+  height: 50%;
+}
+#answer {
+  font-size: 90px;
+  color: red;
+  display: grid;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+#answer:hover {
+  color: gold;
+}
+#image {
+  border: 5px whitesmoke;
+  border-style: double;
+  background-image: url(https://img1.looper.com/img/gallery/the-untold-truth-of-the-flash/intro-1576770759.jpg);
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 800px;
+  background-size: auto;
+  margin-top: 157px;
+}
